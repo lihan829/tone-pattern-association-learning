@@ -215,18 +215,16 @@ for n in range(len(words)):
 print(words[:2],tones[:2],t_syl_list[:2])
 
 
-#!!!!! One problem here is for hL, the output is [(1, 1), (2, 2)] which is incorrect.
-# the correct answer is [(1, 1), (2, 2),(2, 3)]
-# I haven't fixed this yet
-# fixme 
-
 #All information about a lexical item 
 
 for n in range(2):
     print(words[n], "\t", tones[n], "\t", list[n], "\t", syllables[n], "\t", moraslist[n], "\t",
           morassum[n], "\t", t_syl_list[n], '\t', syl_mora_list[n])
     
-
+#ʔduː˥nɪ˥jɛ˩ 	 Hhl 	 HL 	 3 	 [2, 1, 1] 	 4 	 [(1, 1), (1, 2), (2, 3)] 	 [(1, 1), (1, 2), (2, 3), (3, 4)]
+#ʔɪ˥naː˩ 	     hL 	 HL 	 2 	 [1, 2] 	 3 	 [(1, 1), (2, 2)] 	         [(1, 1), (2, 2), (2, 3)]
+    
+    
 # I tried to create a class but haven't figured it out very clearly
 # Will try the class object method later
 
