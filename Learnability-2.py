@@ -222,7 +222,7 @@ for n in range(2):
           morassum[n], "\t", t_syl_list[n], '\t', syl_mora_list[n])
     
 #ʔduː˥nɪ˥jɛ˩    Hhl     HL      3       [2, 1, 1]       4       [(1, 1), (1, 2), (2, 3)]        [(1, 1), (1, 2), (2, 3), (3, 4)]
-#ʔɪ˥naː˩        hL      HL      2       [1, 2]      3       [(1, 1), (2, 2)] 	         [(1, 1), (2, 2), (2, 3)]
+#ʔɪ˥naː˩        hL      HL      2       [1, 2]          3       [(1, 1), (2, 2)] 	            [(1, 1), (2, 2), (2, 3)]
     
     
 # I tried to create a class but haven't figured it out very clearly
